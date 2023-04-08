@@ -1,0 +1,36 @@
+15.03.2023 23:15:12: New settings loaded this session; update values accordingly.
+15.03.2023 23:15:12: Config was set with ip 
+15.03.2023 23:15:12: New settings loaded this session; update values accordingly.
+15.03.2023 23:15:12: Config was set with ip http://212.56.202.77
+15.03.2023 23:15:12: Client Created successfully 
+15.03.2023 23:16:15: New settings loaded this session; update values accordingly.
+15.03.2023 23:16:15: Config was set with ip 
+15.03.2023 23:16:16: New settings loaded this session; update values accordingly.
+15.03.2023 23:16:16: Config was set with ip http://212.56.202.77
+15.03.2023 23:16:16: Client Created successfully 
+15.03.2023 23:16:24: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client+<SendToServer>d__1.MoveNext () [0x00043] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at CommandLineArgsHandler+<Load>d__23.MoveNext () [0x00231] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:183 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+

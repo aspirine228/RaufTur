@@ -1,0 +1,269 @@
+23.11.2022 21:09:45: Client Created successfully 
+23.11.2022 21:10:08: Client Created successfully 
+23.11.2022 21:10:29: Message: An error occurred while sending the request
+StackTrace:   at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x00478] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClient+<SendAsyncWorker>d__47.MoveNext () [0x000ca] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at APIHandler.StartSession (RequiredProperties properties) [0x0005f] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.WebException: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+) ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetRequestStream (System.IAsyncResult asyncResult) [0x0003a] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x0000f] in <437ba245d8404784b9fbab9b439ac908>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x002e7] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+
+23.11.2022 21:10:33: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:103 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+23.11.2022 21:10:54: Message: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+)
+StackTrace:   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler.GetGameAssets () [0x00023] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:153 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.Sockets.SocketException (0x80004005): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+
+23.11.2022 21:11:27: Client Created successfully 
+23.11.2022 21:11:48: Message: An error occurred while sending the request
+StackTrace:   at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x00478] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClient+<SendAsyncWorker>d__47.MoveNext () [0x000ca] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at APIHandler.StartSession (RequiredProperties properties) [0x0005f] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.WebException: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+) ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetRequestStream (System.IAsyncResult asyncResult) [0x0003a] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x0000f] in <437ba245d8404784b9fbab9b439ac908>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x002e7] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+
+23.11.2022 21:11:53: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:103 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+23.11.2022 21:12:14: Message: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+)
+StackTrace:   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler.GetGameAssets () [0x00023] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:153 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.Sockets.SocketException (0x80004005): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+
+23.11.2022 21:12:50: Client Created successfully 
+23.11.2022 21:13:11: Message: An error occurred while sending the request
+StackTrace:   at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x00478] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClient+<SendAsyncWorker>d__47.MoveNext () [0x000ca] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at APIHandler.StartSession (RequiredProperties properties) [0x0005f] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.WebException: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+) ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetRequestStream (System.IAsyncResult asyncResult) [0x0003a] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x0000f] in <437ba245d8404784b9fbab9b439ac908>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x002e7] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+
+23.11.2022 21:13:15: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c7] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:103 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+23.11.2022 21:13:36: Message: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+)
+StackTrace:   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler.GetGameAssets () [0x00023] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:153 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.Sockets.SocketException (0x80004005): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+
+23.11.2022 21:15:17: Client Created successfully 
+23.11.2022 21:16:26: Message: An error occurred while sending the request
+StackTrace:   at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x00478] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClient+<SendAsyncWorker>d__47.MoveNext () [0x000ca] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter`1[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at APIHandler.StartSession (RequiredProperties properties) [0x0005f] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.WebException: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+) ---> System.Net.Sockets.SocketException: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Net.HttpWebRequest.EndGetRequestStream (System.IAsyncResult asyncResult) [0x0003a] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Threading.Tasks.TaskFactory`1[TResult].FromAsyncCoreLogic (System.IAsyncResult iar, System.Func`2[T,TResult] endFunction, System.Action`1[T] endAction, System.Threading.Tasks.Task`1[TResult] promise, System.Boolean requiresSynchronization) [0x0000f] in <437ba245d8404784b9fbab9b439ac908>:0 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult].GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Net.Http.HttpClientHandler+<SendAsync>d__64.MoveNext () [0x002e7] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+
+23.11.2022 21:16:31: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:103 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+23.11.2022 21:16:52: Message: Error: ConnectFailure (Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+)
+StackTrace:   at System.Net.HttpWebRequest.EndGetResponse (System.IAsyncResult asyncResult) [0x00058] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.HttpWebRequest.GetResponse () [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler.GetGameAssets () [0x00023] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:153 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: System.Net.Sockets.SocketException (0x80004005): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b6] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebConnection.Connect (System.Net.HttpWebRequest request) [0x0016d] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+

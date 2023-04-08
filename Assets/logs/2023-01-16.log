@@ -1,0 +1,163 @@
+16.01.2023 21:06:14: New settings loaded this session; update values accordingly.
+16.01.2023 21:06:14: Config was set with ip 
+16.01.2023 21:06:14: New settings loaded this session; update values accordingly.
+16.01.2023 21:06:14: Config was set with ip http://212.56.202.77
+16.01.2023 21:06:14: Client Created successfully 
+16.01.2023 21:06:24: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client+<SendToServer>d__1.MoveNext () [0x00043] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at CommandLineArgsHandler+<Load>d__23.MoveNext () [0x00231] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:183 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+16.01.2023 21:06:47: session closed successfully with response:StatusCode: 202, ReasonPhrase: 'Accepted', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+Server: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+Cache-Control: no-cache, private
+Date: Mon, 16 Jan 2023 19:06:35 GMT
+X-Debug-Token: a31bcc
+X-Debug-Token-Link: http://212.56.202.77/_profiler/a31bcc
+X-Robots-Tag: noindex
+Content-Type: text/html; charset=UTF-8
+}
+16.01.2023 21:07:32: New settings loaded this session; update values accordingly.
+16.01.2023 21:07:32: Config was set with ip 
+16.01.2023 21:07:32: New settings loaded this session; update values accordingly.
+16.01.2023 21:07:32: Config was set with ip http://212.56.202.77
+16.01.2023 21:07:32: Client Created successfully 
+16.01.2023 21:07:37: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client+<SendToServer>d__1.MoveNext () [0x00043] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at CommandLineArgsHandler+<Load>d__23.MoveNext () [0x00231] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:183 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+16.01.2023 21:07:54: session closed successfully with response:StatusCode: 202, ReasonPhrase: 'Accepted', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+Server: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+Cache-Control: no-cache, private
+Date: Mon, 16 Jan 2023 19:07:42 GMT
+X-Debug-Token: 94419b
+X-Debug-Token-Link: http://212.56.202.77/_profiler/94419b
+X-Robots-Tag: noindex
+Content-Type: text/html; charset=UTF-8
+}
+16.01.2023 21:18:53: New settings loaded this session; update values accordingly.
+16.01.2023 21:18:53: Config was set with ip 
+16.01.2023 21:18:53: New settings loaded this session; update values accordingly.
+16.01.2023 21:18:53: Config was set with ip http://212.56.202.77
+16.01.2023 21:18:53: Client Created successfully 
+16.01.2023 21:18:58: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client+<SendToServer>d__1.MoveNext () [0x00043] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at CommandLineArgsHandler+<Load>d__23.MoveNext () [0x00231] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:183 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+16.01.2023 21:25:12: New settings loaded this session; update values accordingly.
+16.01.2023 21:25:12: Config was set with ip 
+16.01.2023 21:25:13: New settings loaded this session; update values accordingly.
+16.01.2023 21:25:13: Config was set with ip http://212.56.202.77
+16.01.2023 21:25:13: Client Created successfully 
+16.01.2023 21:25:41: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client+<SendToServer>d__1.MoveNext () [0x00043] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+--- End of stack trace from previous location where exception was thrown ---
+  at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw () [0x0000c] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess (System.Threading.Tasks.Task task) [0x0003e] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification (System.Threading.Tasks.Task task) [0x00028] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.ValidateEnd (System.Threading.Tasks.Task task) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.Runtime.CompilerServices.TaskAwaiter.GetResult () [0x00000] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at CommandLineArgsHandler+<Load>d__23.MoveNext () [0x00231] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:183 
+Source: mscorlib
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+16.01.2023 21:25:55: session closed successfully with response:StatusCode: 202, ReasonPhrase: 'Accepted', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+Server: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+Cache-Control: no-cache, private
+Date: Mon, 16 Jan 2023 19:25:43 GMT
+X-Debug-Token: dce6e1
+X-Debug-Token-Link: http://212.56.202.77/_profiler/dce6e1
+X-Robots-Tag: noindex
+Content-Type: text/html; charset=UTF-8
+}

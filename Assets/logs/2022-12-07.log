@@ -1,0 +1,657 @@
+07.12.2022 0:24:55: Client Created successfully 
+07.12.2022 0:25:00: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:128 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 0:26:00: Client Created successfully 
+07.12.2022 0:26:04: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:128 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 0:27:48: Client Created successfully 
+07.12.2022 0:27:52: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:128 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 0:34:37: Client Created successfully 
+07.12.2022 0:34:42: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:128 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 0:35:46: Client Created successfully 
+07.12.2022 0:35:50: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:128 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:02:02: Client Created successfully 
+07.12.2022 1:02:02: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:02:06: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:130 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:02:06: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:03:10: Client Created successfully 
+07.12.2022 1:03:10: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:03:14: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:130 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:03:14: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:03:40: Client Created successfully 
+07.12.2022 1:03:40: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:03:44: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:130 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:03:44: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:04:31: Client Created successfully 
+07.12.2022 1:04:31: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:04:35: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:130 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:04:35: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:04:52: Client Created successfully 
+07.12.2022 1:05:09: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:05:13: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:130 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:05:13: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:06:12: Client Created successfully 
+07.12.2022 1:06:12: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:06:17: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:130 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:06:17: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:11:06: Client Created successfully 
+07.12.2022 1:11:06: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__9.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:76 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:11:10: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__21.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:130 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:11:10: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__11.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:165 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:14:59: Client Created successfully 
+07.12.2022 1:14:59: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__9.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:76 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:15:03: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__23.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:160 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:15:03: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__11.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:165 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:15:13: Client Created successfully 
+07.12.2022 1:15:13: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__9.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:76 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:15:17: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__23.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:160 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:15:17: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__11.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:165 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:16:20: Client Created successfully 
+07.12.2022 1:16:20: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:16:24: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__25.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:170 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:16:25: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:16:37: Client Created successfully 
+07.12.2022 1:16:37: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:16:41: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__25.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:170 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:16:41: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:17:34: Client Created successfully 
+07.12.2022 1:17:35: Message: The request URI must either be an absolute URI or BaseAddress must be set
+StackTrace:   at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken) [0x00093] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.SendAsync (System.Net.Http.HttpRequestMessage request) [0x00008] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at System.Net.Http.HttpClient.PostAsync (System.String requestUri, System.Net.Http.HttpContent content) [0x00013] in <7ebf3529ba0e4558a5fa1bc982aa8605>:0 
+  at APIHandler+<StartSession>d__7.MoveNext () [0x0007b] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:67 
+Source: System.Net.Http
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:17:39: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__25.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:170 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:17:39: Message: Invalid URI: The format of the URI could not be determined.
+StackTrace:   at System.Uri.CreateThis (System.String uri, System.Boolean dontEscape, System.UriKind uriKind) [0x0007b] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Uri..ctor (System.String uriString) [0x00014] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at System.Net.WebRequest.CreateHttp (System.String requestUriString) [0x0000e] in <ae22a4e8f83c41d69684ae7f557133d9>:0 
+  at APIHandler+<GetGameAssets>d__9.MoveNext () [0x00018] in C:\Games\Rauf Tur\Assets\Scripts\API\APIHandler.cs:156 
+Source: System
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:18:51: Client Created successfully 
+07.12.2022 1:18:56: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__24.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:163 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:19:55: Client Created successfully 
+07.12.2022 1:20:00: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__24.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:163 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:20:07: Client Created successfully 
+07.12.2022 1:20:12: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__24.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:163 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+07.12.2022 1:20:31: Client Created successfully 
+07.12.2022 1:20:36: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler+<Load>d__24.MoveNext () [0x00186] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:163 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+

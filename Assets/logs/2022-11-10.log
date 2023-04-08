@@ -1,0 +1,918 @@
+10.11.2022 13:22:20: Client Created successfully 
+10.11.2022 13:22:21: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:22:20 GMT
+X-Debug-Token: 6c98da
+X-Debug-Token-Link: http://212.56.202.77/_profiler/6c98da
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: b6debb
+
+10.11.2022 13:22:26: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:99 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:30:55: Client Created successfully 
+10.11.2022 13:30:55: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:30:54 GMT
+X-Debug-Token: e804e0
+X-Debug-Token-Link: http://212.56.202.77/_profiler/e804e0
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 6c0465
+
+10.11.2022 13:30:59: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:41:06: Client Created successfully 
+10.11.2022 13:41:07: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:41:05 GMT
+X-Debug-Token: 0cda1c
+X-Debug-Token-Link: http://212.56.202.77/_profiler/0cda1c
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 60a89e
+
+10.11.2022 13:41:11: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:41:31: Client Created successfully 
+10.11.2022 13:41:31: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:41:30 GMT
+X-Debug-Token: febfca
+X-Debug-Token-Link: http://212.56.202.77/_profiler/febfca
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 89e5f6
+
+10.11.2022 13:41:35: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:43:03: Client Created successfully 
+10.11.2022 13:43:03: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:43:02 GMT
+X-Debug-Token: aebcc7
+X-Debug-Token-Link: http://212.56.202.77/_profiler/aebcc7
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: d8a56f
+
+10.11.2022 13:43:08: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:44:19: Client Created successfully 
+10.11.2022 13:44:20: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:44:18 GMT
+X-Debug-Token: 3668f0
+X-Debug-Token-Link: http://212.56.202.77/_profiler/3668f0
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 5c2e9a
+
+10.11.2022 13:44:24: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:45:41: Client Created successfully 
+10.11.2022 13:45:42: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:45:40 GMT
+X-Debug-Token: 4c74ac
+X-Debug-Token-Link: http://212.56.202.77/_profiler/4c74ac
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 895777
+
+10.11.2022 13:45:46: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:54:45: Client Created successfully 
+10.11.2022 13:54:45: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:54:44 GMT
+X-Debug-Token: 5ce1da
+X-Debug-Token-Link: http://212.56.202.77/_profiler/5ce1da
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: e15f45
+
+10.11.2022 13:54:49: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:55:23: Client Created successfully 
+10.11.2022 13:55:24: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:55:22 GMT
+X-Debug-Token: f5d0f8
+X-Debug-Token-Link: http://212.56.202.77/_profiler/f5d0f8
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 62862e
+
+10.11.2022 13:55:28: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 13:55:57: Client Created successfully 
+10.11.2022 13:55:57: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 11:55:55 GMT
+X-Debug-Token: 07eea4
+X-Debug-Token-Link: http://212.56.202.77/_profiler/07eea4
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 7f8302
+
+10.11.2022 13:56:01: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 14:05:57: Client Created successfully 
+10.11.2022 14:05:58: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 12:05:56 GMT
+X-Debug-Token: 79f0d5
+X-Debug-Token-Link: http://212.56.202.77/_profiler/79f0d5
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 348810
+
+10.11.2022 14:06:02: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:01:21: Client Created successfully 
+10.11.2022 21:01:22: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:01:22 GMT
+X-Debug-Token: 53db64
+X-Debug-Token-Link: http://212.56.202.77/_profiler/53db64
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 8479c5
+
+10.11.2022 21:01:26: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:15:41: Client Created successfully 
+10.11.2022 21:15:42: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:15:42 GMT
+X-Debug-Token: fed4a2
+X-Debug-Token-Link: http://212.56.202.77/_profiler/fed4a2
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 525341
+
+10.11.2022 21:15:46: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:17:56: Client Created successfully 
+10.11.2022 21:17:56: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:17:57 GMT
+X-Debug-Token: 3f120c
+X-Debug-Token-Link: http://212.56.202.77/_profiler/3f120c
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: f78870
+
+10.11.2022 21:18:00: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:20:22: Client Created successfully 
+10.11.2022 21:20:22: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:20:23 GMT
+X-Debug-Token: c5f5f6
+X-Debug-Token-Link: http://212.56.202.77/_profiler/c5f5f6
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 835664
+
+10.11.2022 21:20:27: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:21:19: Client Created successfully 
+10.11.2022 21:21:20: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:21:20 GMT
+X-Debug-Token: 1b1901
+X-Debug-Token-Link: http://212.56.202.77/_profiler/1b1901
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 9ce0f8
+
+10.11.2022 21:21:24: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:22:26: Client Created successfully 
+10.11.2022 21:22:26: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:22:27 GMT
+X-Debug-Token: 9400f3
+X-Debug-Token-Link: http://212.56.202.77/_profiler/9400f3
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 88da32
+
+10.11.2022 21:22:30: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:24:58: Client Created successfully 
+10.11.2022 21:24:58: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:24:59 GMT
+X-Debug-Token: e26b30
+X-Debug-Token-Link: http://212.56.202.77/_profiler/e26b30
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 78ca54
+
+10.11.2022 21:25:02: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:28:43: Client Created successfully 
+10.11.2022 21:28:44: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:28:44 GMT
+X-Debug-Token: 3c6a3b
+X-Debug-Token-Link: http://212.56.202.77/_profiler/3c6a3b
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: b441cd
+
+10.11.2022 21:28:48: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:30:56: Client Created successfully 
+10.11.2022 21:30:57: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:30:57 GMT
+X-Debug-Token: b27820
+X-Debug-Token-Link: http://212.56.202.77/_profiler/b27820
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 85b822
+
+10.11.2022 21:31:01: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:34:08: Client Created successfully 
+10.11.2022 21:34:09: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:34:10 GMT
+X-Debug-Token: 0d9ab3
+X-Debug-Token-Link: http://212.56.202.77/_profiler/0d9ab3
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 92051d
+
+10.11.2022 21:34:53: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:36:22: Client Created successfully 
+10.11.2022 21:38:09: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:36:49 GMT
+X-Debug-Token: 19a268
+X-Debug-Token-Link: http://212.56.202.77/_profiler/19a268
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 8383c8
+
+10.11.2022 21:38:14: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:42:58: Client Created successfully 
+10.11.2022 21:42:59: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:42:59 GMT
+X-Debug-Token: e002cf
+X-Debug-Token-Link: http://212.56.202.77/_profiler/e002cf
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 02b635
+
+10.11.2022 21:43:03: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:46:01: Client Created successfully 
+10.11.2022 21:46:02: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:46:02 GMT
+X-Debug-Token: 4ec144
+X-Debug-Token-Link: http://212.56.202.77/_profiler/4ec144
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 477052
+
+10.11.2022 21:46:06: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:101 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:46:35: Client Created successfully 
+10.11.2022 21:46:36: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:46:37 GMT
+X-Debug-Token: 3e6d51
+X-Debug-Token-Link: http://212.56.202.77/_profiler/3e6d51
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 821e4d
+
+10.11.2022 21:46:40: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:102 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:48:18: Client Created successfully 
+10.11.2022 21:48:19: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:48:20 GMT
+X-Debug-Token: b21cd8
+X-Debug-Token-Link: http://212.56.202.77/_profiler/b21cd8
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: adb7b2
+
+10.11.2022 21:48:23: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:102 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
+10.11.2022 21:48:31: Client Created successfully 
+10.11.2022 21:48:32: ForbiddenForbiddenSystem.Net.Http.StreamContentServer: nginx/1.23.1
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: PHP/7.4.25
+X-Debug-Exception: Access%20Denied.
+X-Debug-Exception-File: %2Fvar%2Fwww%2Fhtml%2Fvendor%2Fsymfony%2Fsecurity-http%2FFirewall%2FExceptionListener.php:138
+Cache-Control: no-cache, private
+Date: Thu, 10 Nov 2022 19:48:32 GMT
+X-Debug-Token: 5d46fe
+X-Debug-Token-Link: http://212.56.202.77/_profiler/5d46fe
+X-Robots-Tag: noindex
+X-Previous-Debug-Token: 19802b
+
+10.11.2022 21:48:36: Message: Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение.
+
+StackTrace: 
+
+Server stack trace: 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.CreateConnection () [0x00036] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.HostConnectionPool.GetConnection () [0x000bb] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpConnectionPool.GetConnection (System.String host, System.Int32 port) [0x0005c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.ProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg, System.Runtime.Remoting.Channels.ITransportHeaders requestHeaders, System.IO.Stream requestStream, System.Runtime.Remoting.Channels.ITransportHeaders& responseHeaders, System.IO.Stream& responseStream) [0x00025] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+  at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.SyncProcessMessage (System.Runtime.Remoting.Messaging.IMessage msg) [0x0006c] in <f4b659e5df5b40fda5b047a02f25c201>:0 
+
+Exception rethrown at [0]: 
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_remoting_wrapper(intptr,intptr)
+  at (wrapper remoting-invoke) IMarketingGameResult.IMarketingGameResult.Log(string)
+  at Client.SendToServer (System.String[] data) [0x00017] in C:\Games\Rauf Tur\Assets\Scripts\Classes\Client.cs:16 
+  at CommandLineArgsHandler.Start () [0x000c9] in C:\Games\Rauf Tur\Assets\CommandLineArgsHandler.cs:102 
+Source: 
+Date: System.Collections.ListDictionaryInternal
+InnerException: 
+
